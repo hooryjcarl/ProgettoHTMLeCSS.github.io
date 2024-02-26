@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(252, 253, 255);
+}
+    
+p {
+    color: rgb(81, 85, 79);
+}
+
+a {
+    color: black;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(51, 211, 46);
+    text-decoration-color: rgb(51, 211, 46);
+}
+  
+h1 {
+    color: rgb(51, 211, 46);
+}
+
+
+.btn1:hover {
+    background: none;
+}
+
+
+
+.details-container {
+    background: white;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(51, 211, 46);
+}
+
+.color-container {
+    border-color: rgb(51, 211, 46);
+    background: rgb(252, 253, 255);
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+
+.contact-info-upper-container {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(51, 211, 46);
+}

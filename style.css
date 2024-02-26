@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  height: 17vh;
+}
+
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+  
+.section-container {
+    display: flex;
+}
+
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+  
+.section-pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+  
+.section-text-p2 {
+    margin-bottom: 1rem;
+}
+  
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem; /*spazio tra le icons*/
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: none;
+}
+  
+.btn1 {
+    transition: all 300ms ease;
+    border-radius: 80px;
+    border: none;
+}
+  
+.btn-container {
+    gap: 1rem;
+}
+
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+  
+.about-pic {
+    border-radius: 2rem;
+}
+
+  
+  
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    text-align: center;
+}
+  
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+  
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
+
+
+
+#experience {
+    position: relative;
+}
+
+.cv-container {
+    padding: 5%;
+}
+
+
+
+
+
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+  
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+  
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+  
+.contact-info-container p {
+    font-size: larger;
+}
+  
+.contact-icon {
+    cursor: default;
+}
+  
+.email-icon {
+    height: 2.5rem;
+}
+  
+  
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+  
+footer p {
+    text-align: center;
+}
+
+
